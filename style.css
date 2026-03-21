@@ -41,9 +41,10 @@ a {
 .hero {
   min-height: 88vh;
   padding: 1.25rem 1.25rem 4rem;
-  background: linear-gradient(rgba(247, 243, 238, 0.75), rgba(247, 243, 238, 0.9)),
+  background:
+    linear-gradient(rgba(247, 243, 238, 0.75), rgba(247, 243, 238, 0.9)),
     url("https://commons.wikimedia.org/wiki/File:Moinhos_Vivos_de_Palmela_-_Portugal_(50194371033).jpg")
-    center/cover no-repeat;
+      center/cover no-repeat;
 }
 
 .nav {
