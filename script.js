@@ -38,7 +38,8 @@ const translations = {
 
     eventsKicker: "Agenda",
     eventsTitle: "Próximos Eventos",
-    eventsIntro: "Ao longo do mês, o AR recebe encontros, oficinas, projeções e momentos de partilha abertos à comunidade.",
+    eventsIntro:
+      "Ao longo do mês, o AR recebe encontros, oficinas, projeções e momentos de partilha abertos à comunidade.",
     event1Title: "Workshop de Colagem e Expressão Visual",
     event1Text:
       "Uma sessão aberta para explorar composição, recorte e criação coletiva.",
@@ -103,7 +104,7 @@ const translations = {
     eventsKicker: "Agenda",
     eventsTitle: "Upcoming Events",
     eventsIntro:
-      "Throughout the month, the AR receives meetings, workshops, projections and moments of sharing open to the community.",
+      "Throughout the month, AR hosts gatherings, workshops, screenings, and shared moments open to the community.",
     event1Title: "Collage and Visual Expression Workshop",
     event1Text:
       "An open session to explore composition, cutting, and collective creation.",
