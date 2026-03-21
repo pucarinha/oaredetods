@@ -153,6 +153,12 @@ h1 {
   background: #faf7f2;
 }
 
+.event-card .btn {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 0;
+}
+
 .section {
   max-width: var(--max);
   margin: 0 auto;
@@ -186,8 +192,8 @@ h1 {
 }
 
 .text-block {
-  max-width: 820px;
-  font-size: 1.05rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .cards,
