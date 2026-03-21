@@ -103,7 +103,7 @@ const translations = {
     eventsKicker: "Agenda",
     eventsTitle: "Upcoming Events",
     eventsIntro:
-      "A simple example of how to present the programme. Later, you only need to replace the text.",
+      "Throughout the month, the AR receives meetings, workshops, projections and moments of sharing open to the community.",
     event1Title: "Collage and Visual Expression Workshop",
     event1Text:
       "An open session to explore composition, cutting, and collective creation.",
@@ -117,7 +117,7 @@ const translations = {
     galleryKicker: "Gallery",
     galleryTitle: "Space Gallery",
     galleryIntro:
-      "Replace these images with real photos of the space, activities, window displays, or events.",
+      "The space, activities, window displays, and events.",
 
     calloutTitle: "A space where ideas can breathe.",
     calloutText:
