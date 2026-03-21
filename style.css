@@ -42,7 +42,7 @@ a {
   min-height: 88vh;
   padding: 1.25rem 1.25rem 4rem;
   background: linear-gradient(rgba(247, 243, 238, 0.75), rgba(247, 243, 238, 0.9)),
-    url("https://commons.wikimedia.org/wiki/File:Moinhos_Vivos_de_Palmela_-_Portugal_(50194371033).jpg"><alt="Moinhos Vivos de Palmela - Portugal (50194371033)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Moinhos_Vivos_de_Palmela_-_Portugal_%2850194371033%29.jpg/960px-Moinhos_Vivos_de_Palmela_-_Portugal_%2850194371033%29.jpg")
+    url("https://commons.wikimedia.org/wiki/File:Moinhos_Vivos_de_Palmela_-_Portugal_(50194371033).jpg")
     center/cover no-repeat;
 }
 
