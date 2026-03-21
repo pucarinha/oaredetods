@@ -2,67 +2,228 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>O AR é de Todos</title>
+  <meta
+    name="description"
+    content="O AR é de Todos - um espaço comunitário criativo em Palmela para encontros, workshops, ensaios, exposições e eventos."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">O AR é de Todos</div>
+      <div class="nav-actions">
+        <a href="#about" class="nav-link" data-i18n="navAbout">Sobre</a>
+        <a href="#spaces" class="nav-link" data-i18n="navSpaces">Espaços</a>
+        <a href="#events" class="nav-link" data-i18n="navEvents">Eventos</a>
+        <a href="#gallery" class="nav-link" data-i18n="navGallery">Galeria</a>
+        <a href="#contact" class="nav-link" data-i18n="navContact">Contacto</a>
+        <button id="langBtn" class="lang-btn" type="button" aria-label="Mudar idioma">
+          EN
+        </button>
+      </div>
+    </nav>
 
-<header>
-  <h1>O AR é de Todos</h1>
-  <p id="subtitle">Um espaço comunitário criativo em Palmela</p>
+    <div class="hero-content reveal">
+      <p class="eyebrow" data-i18n="eyebrow">Palmela, Portugal</p>
+      <h1 data-i18n="heroTitle">Um espaço comunitário criativo</h1>
+      <p class="hero-text" data-i18n="heroText">
+        Um lugar para respirar ideias, criar em conjunto e fortalecer ligações na comunidade.
+      </p>
+      <div class="hero-buttons">
+        <a href="#events" class="btn" data-i18n="heroBtn1">Ver eventos</a>
+        <a href="#contact" class="btn btn-secondary" data-i18n="heroBtn2">Entrar em contacto</a>
+      </div>
+    </div>
+  </header>
 
-  <button onclick="toggleLanguage()" id="langBtn">EN</button>
-</header>
+  <main>
+    <section id="about" class="section reveal">
+      <div class="section-header">
+        <p class="section-kicker" data-i18n="aboutKicker">Sobre</p>
+        <h2 data-i18n="aboutTitle">Sobre Nós</h2>
+      </div>
+      <div class="text-block">
+        <p data-i18n="aboutP1">
+          O AR é um espaço comunitário, criativo e coletivo, onde ideias, projetos e colaborações
+          podem respirar e crescer.
+        </p>
+        <p data-i18n="aboutP2">
+          Somos um lugar de encontro, partilha e co-criação — aberto a todas as pessoas que
+          procuram um ambiente inspirador e dinâmico para trabalhar, aprender e criar.
+        </p>
+        <p data-i18n="aboutP3">
+          A nossa missão é simples: tornar acessíveis espaços versáteis e multifuncionais, apoiando
+          a criatividade, a ligação entre pessoas e o desenvolvimento da comunidade.
+        </p>
+      </div>
+    </section>
 
-<section>
-  <h2 id="about-title">Sobre Nós</h2>
-  <p id="about-text">
-    O AR é um espaço comunitário, criativo e coletivo, onde ideias, projetos e colaborações podem respirar e crescer.
-    Somos um lugar de encontro, partilha e co-criação — aberto a todas as pessoas que procuram um ambiente inspirador
-    e dinâmico para trabalhar, aprender e criar.
-  </p>
-</section>
+    <section id="spaces" class="section alt reveal">
+      <div class="section-header">
+        <p class="section-kicker" data-i18n="spacesKicker">Espaços</p>
+        <h2 data-i18n="spacesTitle">Os Nossos Espaços</h2>
+      </div>
 
-<section>
-  <h2 id="spaces-title">Os Nossos Espaços</h2>
-  <ul id="spaces-list">
-    <li>Salas de trabalho e reuniões</li>
-    <li>Salas de ensaio</li>
-    <li>Workshops e aulas</li>
-    <li>Exposições</li>
-    <li>Cinema e apresentações</li>
-  </ul>
-</section>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="icon">🧑‍💻</div>
+          <h3 data-i18n="space1Title">Trabalho e reuniões</h3>
+          <p data-i18n="space1Text">Para freelancers, empreendedores e pequenas equipas.</p>
+        </article>
 
-<section>
-  <h2 id="how-title">Como Funciona</h2>
-  <p id="how-text">
-    Os espaços funcionam por marcação e através de um sistema de doação e/ou troca, garantindo acesso a todos.
-  </p>
-</section>
+        <article class="card reveal">
+          <div class="icon">🎭</div>
+          <h3 data-i18n="space2Title">Salas de ensaio</h3>
+          <p data-i18n="space2Text">Para artistas e performers desenvolverem o seu trabalho.</p>
+        </article>
 
-<section>
-  <h2 id="street-title">Aberto para a Rua</h2>
-  <p id="street-text">
-    Montras disponíveis para instalações artísticas que dialogam com a comunidade e o espaço público.
-  </p>
-</section>
+        <article class="card reveal">
+          <div class="icon">📚</div>
+          <h3 data-i18n="space3Title">Workshops e aulas</h3>
+          <p data-i18n="space3Text">Espaços para aprendizagem, mentoring e partilha.</p>
+        </article>
 
-<section>
-  <h2 id="join-title">Junta-te a Nós</h2>
-  <p id="join-text">Vem respirar connosco.</p>
+        <article class="card reveal">
+          <div class="icon">🎨</div>
+          <h3 data-i18n="space4Title">Exposição</h3>
+          <p data-i18n="space4Text">Para artistas mostrarem o seu trabalho à comunidade.</p>
+        </article>
 
-  <a href="mailto:hello@oarédetodos.pt" class="btn">Email</a>
-  <a href="#" class="btn">Instagram</a>
-</section>
+        <article class="card reveal">
+          <div class="icon">🎬</div>
+          <h3 data-i18n="space5Title">Cinema e apresentações</h3>
+          <p data-i18n="space5Text">Para projeções, conversas, sessões e pequenos eventos.</p>
+        </article>
 
-<footer>
-  <p>O AR é de Todos — Palmela, Portugal</p>
-</footer>
+        <article class="card reveal">
+          <div class="icon">🪟</div>
+          <h3 data-i18n="space6Title">Montras artísticas</h3>
+          <p data-i18n="space6Text">Intervenções visuais que dialogam com a rua e com quem passa.</p>
+        </article>
+      </div>
+    </section>
 
-<script src="script.js"></script>
+    <section id="events" class="section reveal">
+      <div class="section-header">
+        <p class="section-kicker" data-i18n="eventsKicker">Agenda</p>
+        <h2 data-i18n="eventsTitle">Próximos Eventos</h2>
+        <p class="section-intro" data-i18n="eventsIntro">
+          Um pequeno exemplo de como podem apresentar a programação. Depois só precisam de trocar os textos.
+        </p>
+      </div>
 
+      <div class="events-grid">
+        <article class="event-card reveal">
+          <span class="event-date">12 APR</span>
+          <h3 data-i18n="event1Title">Workshop de Colagem e Expressão Visual</h3>
+          <p data-i18n="event1Text">
+            Uma sessão aberta para explorar composição, recorte e criação coletiva.
+          </p>
+        </article>
+
+        <article class="event-card reveal">
+          <span class="event-date">19 APR</span>
+          <h3 data-i18n="event2Title">Cine-noite Comunitária</h3>
+          <p data-i18n="event2Text">
+            Projeção de um filme seguida de conversa informal e partilha de ideias.
+          </p>
+        </article>
+
+        <article class="event-card reveal">
+          <span class="event-date">27 APR</span>
+          <h3 data-i18n="event3Title">Encontro Aberto de Projetos Locais</h3>
+          <p data-i18n="event3Text">
+            Um momento para apresentar iniciativas, criar ligações e imaginar colaborações.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt reveal">
+      <div class="section-header">
+        <p class="section-kicker" data-i18n="galleryKicker">Galeria</p>
+        <h2 data-i18n="galleryTitle">Imagens do Espaço</h2>
+        <p class="section-intro" data-i18n="galleryIntro">
+          Substitui estas imagens por fotografias reais do espaço, atividades, montras ou eventos.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"
+            alt="Pessoas reunidas num espaço criativo"
+          />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80"
+            alt="Workshop criativo com materiais em cima de uma mesa"
+          />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+            alt="Sala luminosa preparada para encontro ou aula"
+          />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80"
+            alt="Exposição artística num espaço interior"
+          />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80"
+            alt="Área de trabalho partilhada"
+          />
+        </figure>
+        <figure class="gallery-item reveal">
+          <img
+            src="https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=900&q=80"
+            alt="Pequeno evento com público sentado"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="callout">
+        <h2 data-i18n="calloutTitle">Um espaço onde as ideias respiram.</h2>
+        <p data-i18n="calloutText">
+          Disponível por marcação, com base em doação e/ou troca, para tornar a criação e o encontro mais acessíveis.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="section-header">
+        <p class="section-kicker" data-i18n="contactKicker">Contacto</p>
+        <h2 data-i18n="contactTitle">Junta-te a Nós</h2>
+      </div>
+
+      <div class="contact-box">
+        <p data-i18n="contactText">
+          Vem respirar connosco. Traz as tuas ideias, projetos e curiosidade.
+        </p>
+        <div class="contact-actions">
+          <a href="mailto:hello@oaredetods.com" class="btn">Email</a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>O AR é de Todos — Palmela, Portugal</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
