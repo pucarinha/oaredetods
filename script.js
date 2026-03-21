@@ -38,8 +38,7 @@ const translations = {
 
     eventsKicker: "Agenda",
     eventsTitle: "Próximos Eventos",
-    eventsIntro:
-      "Um pequeno exemplo de como podem apresentar a programação. Depois só precisam de trocar os textos.",
+    eventsIntro: "Ao longo do mês, o AR recebe encontros, oficinas, projeções e momentos de partilha abertos à comunidade.",
     event1Title: "Workshop de Colagem e Expressão Visual",
     event1Text:
       "Uma sessão aberta para explorar composição, recorte e criação coletiva.",
@@ -52,8 +51,7 @@ const translations = {
 
     galleryKicker: "Galeria",
     galleryTitle: "Imagens do Espaço",
-    galleryIntro:
-      "Substitui estas imagens por fotografias reais do espaço, atividades, montras ou eventos.",
+    galleryIntro:  "O espaço, atividades, montras e eventos.",
 
     calloutTitle: "Um espaço onde as ideias respiram.",
     calloutText:
