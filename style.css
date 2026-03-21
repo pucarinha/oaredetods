@@ -194,6 +194,7 @@ h1 {
 .text-block {
   max-width: 1000px;
   margin: 0 auto;
+  line-height: 1.7;
 }
 
 .cards,
